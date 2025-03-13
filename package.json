@@ -1,0 +1,37 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Yogesh Kakran",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykakran05/namaste-react.git"
+  },
+  "keywords": [],
+  "author": "Yogesh Kakran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ykakran05/namaste-react/issues"
+  },
+  "homepage": "https://github.com/ykakran05/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.6.1",
+    "@tailwindcss/postcss": "^4.0.12",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.14.1",
+    "tailwindcss": "^4.0.12"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
