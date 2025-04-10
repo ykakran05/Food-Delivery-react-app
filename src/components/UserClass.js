@@ -8,7 +8,7 @@ class UserClass extends React.Component{
             userInfo : {
                 name : "Dummy",
                 location : "Default",
-                avatar_url : "http://photo.com"
+                avatar_url : "https://avatars.githubusercontent.com/u/47622948?v=4"
             }
         }
         console.log(this.props.name +"Child constructor called");
@@ -18,7 +18,7 @@ class UserClass extends React.Component{
     async componentDidMount(){
         console.log(this.props.name +"Child DidMount called");
 
-        const data = await fetch("https://api.github.com/users/akshaymarch7");
+        const data = await fetch("https://api.github.com/users/ykakran05");
         const json = await data.json();
 
         console.log(json);
